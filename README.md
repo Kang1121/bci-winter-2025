@@ -2,9 +2,10 @@
 
 Thanks for the code from [EAV: EEG-Audio-Video Dataset for Emotion Recognition in Conversational Contexts](https://github.com/nubcico/EAV).
 
-First clone the above repository and put our code at the outermost level of the directory.
 
-We use *Dataload_audio.py*, *Dataload_vision.py* and *Dataload_eeg.py* to pretrain the model and save in ./ckpt/*MODEL_NAME*.
+We pretrain the each modality using code under folder **Transformer_torch**.
+
+After that, you can run the following:
 
 ```
 python MultimodalLearning.py
